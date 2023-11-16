@@ -43,3 +43,23 @@ a {
     margin: 0 0 2em 0;
     width: 30%;
 }
+
+h1 {
+    max-width: 700px;
+    margin: 200px auto 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 2em;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+main {
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
