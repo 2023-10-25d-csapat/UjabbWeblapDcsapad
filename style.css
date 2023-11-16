@@ -33,3 +33,13 @@ a {
     padding: .5em;
     text-decoration: none;
 }
+
+.hero {
+    background: #606060 url(skywalker.PNG) no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten;
+    font: 1.5em/1 'Abril Fatface', serif;
+    padding: 2em;
+    margin: 0 0 2em 0;
+    width: 30%;
+}
