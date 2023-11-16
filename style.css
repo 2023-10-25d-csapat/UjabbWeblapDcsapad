@@ -1,0 +1,122 @@
+body {
+    background-color: #222;
+    font: 16px/1.5 'Josefin Sans', sans-serif;
+    color: #0050b9;
+    margin: 0;
+ }
+ 
+
+ strong {
+    font-weight: 700;
+ }
+ 
+ li {
+    list-style: square;
+ }
+ 
+ nav {
+    font-size: 2em;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: #222;
+    color: white;
+    padding: .5em;
+   
+ }
+
+ a {
+    color: white;
+    padding: .5em;
+    text-decoration: none;
+ }
+ 
+ .hero {
+    background: #606060 url() no-repeat center center;
+    background-size: cover;
+    background-blend-mode: lighten;     
+    font: 1.5em/1 'Abril Fatface', serif;
+    padding: 2em;
+    margin: 0 0 5em 0;
+    width: 30%;
+    
+   
+ }
+ h1 {
+    color: white;
+    max-width: 700px;
+    margin: 200px auto 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 2em;
+ }
+
+ strong {
+    font-size: 2em;
+    font-weight: 400;
+    display: block;
+ }
+ 
+ .lead {
+   margin:auto ;
+    font-size: 20px;
+ }
+ 
+ main {
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+ }
+ 
+ section, blockquote {
+    width: 30%;
+    max-width: 700px;
+    margin: 0;
+    padding: 2em 1em;
+    border-top: 4px solid;
+ }
+ 
+ section {
+    width: 50%;
+ }
+ 
+ .hero + section,
+ blockquote + section {
+    border: none;
+ }
+ 
+ h2 {
+    margin-top: 1.5em;
+ }
+ 
+ h3 {
+    margin-top: -1.5em;
+    font-family: merriweather;
+    font-size: .95em;
+    font-style: italic;
+    
+ }
+ 
+ blockquote {
+    font-family: Abril fatface;
+    font-size: 3em;
+    background: #444;
+    color: white;
+    padding: 1em;
+    position: relative;
+    
+ }
+
+ blockquote:before {
+    content: "\201C";
+    font-size: 3em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: .8;
+ }
