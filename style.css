@@ -12,3 +12,24 @@ strong {
 li {
     list-style: square;
 }
+
+nav {
+    font-size: 2em;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: #222;
+    color: white;
+    padding: .5em;
+
+
+}
+
+a {
+    color: white;
+    padding: .5em;
+    text-decoration: none;
+}
