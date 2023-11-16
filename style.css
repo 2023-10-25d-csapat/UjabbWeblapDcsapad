@@ -63,3 +63,12 @@ main {
     flex-wrap: wrap;
     align-items: flex-start;
 }
+
+section,
+blockquote {
+    width: 30%;
+    max-width: 700px;
+    margin: 0;
+    padding: 2em 1em;
+    border-top: 4px solid;
+}
