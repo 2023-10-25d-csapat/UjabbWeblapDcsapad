@@ -1,0 +1,14 @@
+body {
+    font: 16px/1.5 'Josefin Sans', sans-serif;
+    color: rgb(4, 4, 173);
+    margin: 0;
+    background-color: #222;
+}
+
+strong {
+    font-weight: 700;
+}
+
+li {
+    list-style: square;
+}
